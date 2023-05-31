@@ -20,3 +20,4 @@
 
 ---
 
+Refine is a module for Roblox exploit script developers that helps them write code more efficiently and improve code readability. It streamlines the scripting process, allowing developers to focus on functionality while reducing common tasks and enhancing productivity..
