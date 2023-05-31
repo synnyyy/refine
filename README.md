@@ -1,2 +1,18 @@
-# refine
- A module for Roblox that provides a set of utility functions for common tasks in exploiting.
+
+
+
+<div align="center">
+
+![Logo](https://cdn.discordapp.com/attachments/939881356345897001/1113593592565481492/FISF09E.png)
+
+
+<div>&nbsp;</div>
+
+
+[![Discord server](https://img.shields.io/discord/1047610578740465684?label=Discord&logo=Discord&logoColor=white&style=for-the-badge)](https://discord.gg/r5VaTq5V "A Discord server where people can discuss Adonis related stuff and talk.") 
+![Discord server](https://img.shields.io/github/forks/synnyyy/refine?style=for-the-badge)
+
+</div>
+
+---
+
