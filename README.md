@@ -27,7 +27,7 @@ Refine is a powerful module designed for Roblox exploit script developers. It ai
 
 - [Installation & Usage](#installation-&-usage)
 - [Features](#features)
-  - [Variables (ROBLOX Services)](#variables-)
+  - [Access ROBLOX Services](#access-roblox-services)
   - [Player Related Functions](#player-functions)
   - [Utility Related Functions](#utility-functions)
   - [Animation Related Functions](#animation-functions)
@@ -49,3 +49,20 @@ local Refine = loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyy
 Refine:Load() -- Loads the Refine module.
 
 ```
+2) You are now set; you should make sure that Refine is in the very beginning of your code to prevent random errors.
+
+## Access Roblox Services
+
+To efficiently access Roblox services and ensure security, you can utilize the Refine library's `Services` feature. By doing so, you can easily define and cache the services you need for your script. Here's an example:
+
+```lua
+-- Accessing Roblox services using Refine
+
+local ReplicatedStorage = Refine.Services.ReplicatedStorage
+local HttpService = Refine.Services.HttpService
+local Network = Refine.Services.NetworkService
+```
+In the above example, we declare and assign the desired Roblox services using the Refine library. By using Refine.Services, you can directly access various services such as `ReplicatedStorage`, `HttpService` and `Network` 
+
+> These service objects are cached for efficiency, ensuring better performance in your script.
+
