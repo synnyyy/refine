@@ -71,31 +71,27 @@ Here's an overview of the functions included in Refine:
 This loads the Refine Module.
 ```lua
 Refine:Load()
-
---[[
-
-  Arguments
-    There are no given arguments.
-
-  Returns
-    No output.
-
-]]
 ```
+
 
 
 #### GetPlayer
 This gets the player or specified player instance (by name)
 ```lua
 Refine:GetPlayer(player)
-
---[[
-
-  Arguments
-    player: Gets another specified player instance by name. This is optional.
-
-  Returns
-    Instance or nil
-
-]]
 ```
+- **Arguments**
+    - `player`(optional): Gets another specified player instance by name. If not provided, the current player instance is returned.
+
+- **Returns**
+    - `Instance` or `nil` if not found.
+
+  
+
+#### GetPlayers
+This function gets the players.
+```lua
+Refine:GetPlayers()
+```
+- **Returns**
+  - `table`: A table consisting of all the players in the game.
