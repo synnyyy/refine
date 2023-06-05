@@ -47,9 +47,10 @@ To start using the Refine library, follow these steps:
 ```lua
 local Refine = loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/refine/main/project.lua", true))()
 Refine:Load() -- Loads the Refine module.
-
 ```
-2) You are now set; you should make sure that Refine is in the very beginning of your code to prevent random errors.
+2) You are now set.
+
+> Note: You should make sure that Refine is in the very beginning of your code to prevent random errors.
 
 ## Access Roblox Services
 
