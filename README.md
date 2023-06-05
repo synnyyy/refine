@@ -41,12 +41,11 @@ Refine is a powerful module designed for Roblox exploit script developers. It ai
 
 ## Installation & Usage
 
-To start using the Refine library, you need to loadstring it in your script. Here's an example:
+To start using the Refine library, follow these steps:
 
+1) Load the Refine library by using the loadstring function with the provided URL. Place this code at the beginning of your script:
 ```lua
 local Refine = loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/refine/main/project.lua", true))()
 Refine:Load() -- Loads the Refine module.
+
 ```
-You are highly advised to put this at the start of your code to prevent errors; do not forget to load Refine by using ``Refine:Load``
-
-
