@@ -23,12 +23,11 @@
 # What is Refine?
 Refine is a powerful module designed for Roblox exploit script developers. It aims to enhance code efficiency and readability by providing a streamlined scripting experience. With Refine, developers can focus on implementing functionality while reducing repetitive tasks and improving productivity.
 
-## Table of Contents
+# Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
+- [Installation & Usage](#installation-&-usage)
 - [Features](#features)
-  - [Variables (ROBLOX Services)](#service-caching)
+  - [Variables (ROBLOX Services)](#variables-)
   - [Player Related Functions](#player-functions)
   - [Utility Related Functions](#utility-functions)
   - [Animation Related Functions](#animation-functions)
@@ -37,4 +36,17 @@ Refine is a powerful module designed for Roblox exploit script developers. It ai
 
 - [Community and Support](#community-and-support)
 - [Contributing](#contributing)
-- [License](#license)
+
+
+
+## Installation & Usage
+
+To start using the Refine library, you need to loadstring it in your script. Here's an example:
+
+```lua
+local Refine = loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/refine/main/project.lua", true))()
+Refine:Load() -- Loads the Refine module.
+```
+You are highly advised to put this at the start of your code to prevent errors; do not forget to load Refine by using ``Refine:Load``
+
+
