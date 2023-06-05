@@ -13,11 +13,28 @@
 ![Commits](https://img.shields.io/github/commit-activity/t/synnyyy/refine?style=for-the-badge)
 ![Forks](https://img.shields.io/github/forks/synnyyy/refine?style=for-the-badge)
 ![Stars](https://img.shields.io/github/stars/synnyyy/refine?style=for-the-badge)
+![License](https://img.shields.io/endpoint?label=License&logoColor=blue&style=for-the-badge&url=https%3A%2F%2Fpastebin.com%2Fraw%2F54sUYpzT)
 
 
 
 </div>
 
 
-# Introduction
+# What is Refine?
 Refine is a powerful module designed for Roblox exploit script developers. It aims to enhance code efficiency and readability by providing a streamlined scripting experience. With Refine, developers can focus on implementing functionality while reducing repetitive tasks and improving productivity.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+  - [Variables (ROBLOX Services)](#service-caching)
+  - [Player Related Functions](#player-functions)
+  - [Utility Related Functions](#utility-functions)
+  - [Animation Related Functions](#animation-functions)
+  - [Internal Functions](#uncategorised-functions)
+  - [Uncategorised Functions](#uncategorised-functions)
+
+- [Community and Support](#community-and-support)
+- [Contributing](#contributing)
+- [License](#license)
