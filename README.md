@@ -59,10 +59,43 @@ local Network = Refine.Services.NetworkService
 ```
 In the above example, we declare and assign the desired Roblox services using the Refine library. By using Refine.Services, you can directly access various services such as `ReplicatedStorage`, `HttpService` and `Network` 
 
-> These service objects are cached for efficiency, ensuring better performance in your script.
+> ⚡ These service objects are cached for efficiency, ensuring better performance in your script.
 
 ## 🧰 Functions
-Refine provides a comprehensive set of 40 built-in functions that are designed to make your scripting tasks easier. These functions cover a wide range of functionalities and are readily available for you to use. 
+Refine provides a comprehensive set of 40+ built-in functions that are designed to make your scripting tasks easier. These functions cover a wide range of functionalities and are readily available for you to use. 
 
-Here's an overview of some of the functions included in Refine:
+Here's an overview of the functions included in Refine:
 
+
+#### Load
+This loads the Refine Module.
+```lua
+Refine:Load()
+
+--[[
+
+  Arguments
+    There are no given arguments.
+
+  Returns
+    No output.
+
+]]
+```
+
+
+#### GetPlayer
+This gets the player or specified player instance (by name)
+```lua
+Refine:GetPlayer(player)
+
+--[[
+
+  Arguments
+    player: Gets another specified player instance by name. This is optional.
+
+  Returns
+    Instance or nil
+
+]]
+```
