@@ -18,6 +18,6 @@
 
 </div>
 
----
 
-Refine is a module for Roblox exploit script developers that helps them write code more efficiently and improve code readability. It streamlines the scripting process, allowing developers to focus on functionality while reducing common tasks and enhancing productivity..
+# Introduction
+Refine is a powerful module designed for Roblox exploit script developers. It aims to enhance code efficiency and readability by providing a streamlined scripting experience. With Refine, developers can focus on implementing functionality while reducing repetitive tasks and improving productivity.
