@@ -122,9 +122,35 @@ Refine:GetPlayerHumanoid(target)
 - **Returns**
     - `Instance` or `nil` if not found.
 
+#### GetPlayerCFrame
+This function returns the player's or specified player's CFrame.
+```lua
+Refine:GetPlayerCFrame(target)
+```
+- **Arguments**
+    - `target` (optional): Gets another player's CFrame. If not specified, it will return the current player's CFrame.
+
+- **Returns**
+    - `CFrame` or `nil` if not found.
+
+> Aliases include `GetCFR` and `GetPlayerCFrame`
+
+#### GetPlayerPosition
+This function returns the player's or specified player's Position.
+```lua
+Refine:GetPlayerPosition(target)
+```
+- **Arguments**
+    - `target` (optional): Gets another player's position. If not specified, it will return the current player's position.
+
+- **Returns**
+    - `CFrame.Position` or `nil` if not found.
+
+> Aliases include `GetPos` and `GetPlayerPosition`.
+
 
 #### TeleportPlayer
-This function teleports the local player to the specified vector.
+This function teleports the local player to the specified position.
 ```lua
 Refine:TeleportPlayer(x, y, z)
 ```
@@ -132,4 +158,74 @@ Refine:TeleportPlayer(x, y, z)
     - `x` : Determines X Position.
     - `y` : Determines Y Position.
     - `z` : Determines Z Position.
+
+#### TweenPlayer
+This function tweens the local player to the specified position.
+```lua
+Refine:TweenPlayer(x, y, z, time)
+```
+- **Arguments**
+    - `x` : Determines X Position.
+    - `y` : Determines Y Position.
+    - `z` : Determines Z Position.
+    - `time` : Time taken to reach to the specified position.
+
+#### Pathfind
+This function uses natural pathfinding in order to get to the specified position.
+```lua
+Refine:Pathfind(x, y, z)
+```
+- **Arguments**
+    - `x` : Determines X Position.
+    - `y` : Determines Y Position.
+    - `z` : Determines Z Position.
+
+#### SetWalkspeed
+This function sets the walkspeed of the local player to the specified `speed` value.
+```lua
+Refine:SetWalkSpeed(speed)
+```
+- **Arguments**
+    - `speed` : Determines the speed.
+
+#### SetJumpPower
+This function sets the jump power of the local player to the specified `power` value.
+```lua
+Refine:SetJumpPower(power)
+```
+- **Arguments**
+    - `power` : Determines the jump power.
+
+#### ResetPlayer
+This function kills the player.
+```lua
+Refine:ResetPlayer()
+```
+
+#### GetPlayerHealth
+This function gets the player health or a specified player's health.
+```lua
+Refine:GetPlayerHealth(target)
+```
+- **Arguments**
+    - `target` (optional): Gets another player's health. If not specified, it will return the current player's health.
+
+- **Returns**
+    - `integer` or `nil` if not found.
+
+#### IsPlayerAlive
+This function gets the player health or a specified player's health.
+```lua
+Refine:IsPlayerAlive(target)
+```
+- **Arguments**
+    - `target` (optional): Lets you know if a player is alive. If not specified, will return if the local player is alive or not.
+
+- **Returns**
+    - `bool`
+
+
+
+
+
 
