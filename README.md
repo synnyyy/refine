@@ -78,20 +78,58 @@ Refine:Load()
 #### GetPlayer
 This gets the player or specified player instance (by name)
 ```lua
-Refine:GetPlayer(player)
+Refine:GetPlayer(target)
 ```
 - **Arguments**
-    - `player`(optional): Gets another specified player instance by name. If not provided, the current player instance is returned.
+    - `target` (optional): Gets another specified player instance by name. If not provided, the current player instance is returned.
 
 - **Returns**
     - `Instance` or `nil` if not found.
 
   
 
-#### GetPlayers
-This function gets the players.
+#### GetPlayerCharacter
+This function gets the player's or specified player's character.
 ```lua
-Refine:GetPlayers()
+Refine:GetPlayerCharacter(target)
 ```
+- **Arguments**
+    - `target` (optional): Gets another player's character. If not specified, it will return the current player's character.
+
 - **Returns**
-  - `table`: A table consisting of all the players in the game.
+    - `Instance` or `nil` if not found.
+
+
+#### GetPlayerRoot
+This function gets the player's or specified player's HumanoidRootPart.
+```lua
+Refine:GetPlayerRoot(target)
+```
+- **Arguments**
+    - `target` (optional): Gets another player's HRP. If not specified, it will return the current player's HRP.
+
+- **Returns**
+    - `Instance` or `nil` if not found.
+
+#### GetPlayerHumanoid
+This function gets the player's or specified player's Humanoid.
+```lua
+Refine:GetPlayerHumanoid(target)
+```
+- **Arguments**
+    - `target` (optional): Gets another player's humanoid. If not specified, it will return the current player's humanoid.
+
+- **Returns**
+    - `Instance` or `nil` if not found.
+
+
+#### TeleportPlayer
+This function teleports the local player to the specified vector.
+```lua
+Refine:TeleportPlayer(x, y, z)
+```
+- **Arguments**
+    - `x` : Determines X Position.
+    - `y` : Determines Y Position.
+    - `z` : Determines Z Position.
+
